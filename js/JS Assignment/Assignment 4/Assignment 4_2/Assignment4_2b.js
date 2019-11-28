@@ -1,0 +1,12 @@
+console.log(`----------toUpperCase()-----------`);
+console.log(a.toUpperCase());
+console.log(c.toUpperCase());
+console.log(d.toUpperCase());
+console.log(e.toUpperCase());
+console.log(f.toUpperCase());
+console.log(g.toUpperCase());
+console.log(h.toUpperCase());
+console.log(i.toUpperCase());
+console.log(j.toUpperCase());
+console.log(k.toUpperCase());
+console.log(`++++++++++++++++++++++++++++++++++++++`);

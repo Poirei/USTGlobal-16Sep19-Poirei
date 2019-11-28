@@ -1,0 +1,11 @@
+console.log(`----------isArray-----------`);
+console.log(Array.isArray(num_arr));
+console.log(Array.isArray(genre_arr));
+console.log(Array.isArray(bool_arr));
+console.log(Array.isArray(mob_arr));
+console.log(Array.isArray(arr_arr));
+console.log(Array.isArray(fun_arr));
+console.log(Array.isArray(arr3));
+console.log(Array.isArray(arr4));
+console.log(Array.isArray(arr5));
+console.log(Array.isArray(arr6));

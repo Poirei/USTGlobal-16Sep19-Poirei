@@ -1,0 +1,18 @@
+body {
+    
+}
+img {
+    height: 300px;
+    width: 230px;
+    padding: 20px;
+    border: 1.5px solid green;
+    border-radius: 12px;
+    margin: 30px 0 0 30px;
+    box-shadow: -10px -10px 18px black;
+    transition: all 1.5s;
+}
+img:hover {
+    transform: scale(1, 1);
+    transform: rotate(360deg);
+    cursor: crosshair;
+}

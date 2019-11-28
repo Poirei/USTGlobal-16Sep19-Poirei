@@ -1,0 +1,12 @@
+console.log(`----------replace()-----------`);
+console.log(a.replace(`.`, `^`));
+console.log(c.replace(`    `, `^^^^`));
+console.log(d.replace(`aa`, `^&`));
+console.log(e.replace(` `, `^`));
+console.log(f.replace(` `, `^`));
+console.log(g.replace(` `, `^`));
+console.log(h.replace(` `, `^`));
+console.log(i.replace(` `, `^`));
+console.log(j.replace(` `, `^`));
+console.log(k.replace(` `, `^`));
+console.log(`++++++++++++++++++++++++++++++++++++++`);

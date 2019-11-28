@@ -1,0 +1,85 @@
+body {
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+.div1 {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+ul>li {
+    padding: 6px;
+    margin-left: 15px;
+}
+.photo {
+    height: 450px;
+    width: 450px;
+    float: left;
+    position: relative;
+    right: 90px;
+}
+img {
+    height: 320px;
+}
+.bg-white{
+    margin: 100px;
+    height: 600px;;
+}
+.title1 {
+    float: left;
+}
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-deck {
+    float: left;
+    position: relative;
+    right: 13%;
+}
+.div3 > button {
+    position: relative;
+    left: 25%;
+    margin: 24px 0px;
+}
+.fa-apple-pay, .fa-raspberry-pi, .fa-satellite-dish {
+    height: 35%;
+    width: 35%;
+    font-size: 5.6em;
+    position: relative;
+    left: 126px
+}
+.side-note1 {
+    text-align: center;
+    position: relative;
+    bottom: 305px;
+    left: 69vw;
+    float: left;
+    margin: 0;
+}
+.text-main1 {
+    position: relative;
+    left: 34px;
+}
+.text-main2 {
+    margin: 44px 0px;
+}
+.text-main3 {
+    position: relative;
+    left: 505px;
+    float: left;
+    margin-top: 6%;
+}
+.card-title {
+    text-align: center;
+}
+.card-body {
+    text-align: justify;
+}
+.div4 {
+    padding: 184px;
+    position: relative;
+    left: -90px;
+}

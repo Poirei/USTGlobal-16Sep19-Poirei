@@ -1,0 +1,12 @@
+console.log(`----------substr()-----------`);
+console.log(a.substr(4, 10));
+console.log(c.substr(4, 10));
+console.log(d.substr(4, 10));
+console.log(e.substr(4, 10));
+console.log(f.substr(4, 10));
+console.log(g.substr(4, 10));
+console.log(h.substr(4, 10));
+console.log(i.substr(4, 10));
+console.log(j.substr(4, 10));
+console.log(k.substr(4, 10));
+console.log(`++++++++++++++++++++++++++++++++++++++`);

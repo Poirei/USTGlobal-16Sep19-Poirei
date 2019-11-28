@@ -1,0 +1,12 @@
+console.log(`----------charAt()-----------`);
+console.log(a.charAt(8));
+console.log(c.charAt(8));
+console.log(d.charAt(8));
+console.log(f.charAt(8));
+console.log(g.charAt(8));
+console.log(h.charAt(8));
+console.log(i.charAt(8));
+console.log(j.charAt(8));
+console.log(e.charAt(8));
+console.log(k.charAt(8));
+console.log(`++++++++++++++++++++++++++++++++++++++`);

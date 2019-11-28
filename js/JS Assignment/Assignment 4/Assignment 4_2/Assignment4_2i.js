@@ -1,0 +1,12 @@
+console.log(`----------split()-----------`);
+console.log(a.split(' '));
+console.log(c.split(' '));
+console.log(d.split(' '));
+console.log(e.split(' '));
+console.log(f.split(' '));
+console.log(g.split(' '));
+console.log(h.split(' '));
+console.log(i.split(' '));
+console.log(j.split(' '));
+console.log(k.split(' '));
+console.log(`++++++++++++++++++++++++++++++++++++++`);

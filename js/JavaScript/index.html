@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+    <script src="script/date.js"></script>
+    <script>
+        var age = 22;
+        console.log('Age = ' + age);
+        var name = 'Poirei';
+        console.log('Name = '+name);
+        var isHappy = true;
+        if(isHappy)
+            console.log('He is happy!');
+        var data = null;
+        console.log(data);
+        var married = undefined;
+        console.log('Married = '+married);
+    </script>
+</head>
+<body>
+    <script>
+        var fruits = ['Mango', 'Apple', 'Pineapple', 'Kiwi'];
+        console.log('Fruits =',fruits);
+        console.log('Fruits1 =',fruits[0]);
+        console.log('Length =',fruits.length);
+
+        var person = {
+            firstName : 'Ryzen',
+            lastName : 'Kpns',
+            age : 48,
+            phoneNo : 7013070619,
+            getFullName : function () {
+                return this.firstName +' '+ this.lastName;
+            }
+        }
+        console.log(person.lastName);
+        console.log(person.age);
+        console.log(person.phoneNo);
+        console.log(person.getFullName());
+
+        // Assignment
+        console.log('---------------------------Assignment--------------------------')
+        console.log('Object using new keyword.')
+        var car = new Object();
+        var phone = new Object();
+        var bike = new Object();
+        var laptop = new Object();
+        var watch = new Object();
+        car.name = 'Audi'
+        console.log(car, phone)
+        console.log('Object without using new keyword.')
+        var car = {
+            brand : 'Lamborghini',
+            color : 'black'
+        }
+        console.log(car.color)
+        var phone = {
+            brand : 'Motorola',
+            color : 'black'
+        }
+        var bike = {
+            brand : 'Ducati',
+            color : 'Red',
+            price : 4500000
+        }
+        var laptop = {
+            brand : 'ROG',
+            color : 'Silver',
+            gaming : true,
+            release_date : undefined
+        }
+        var watch = {
+            brand : 'Samsung',
+            color : 'Titanium',
+            battery : null,
+        }
+        console.log(phone, car, bike, laptop, watch)
+        console.log('Array using new Keyword.')
+        var id = new Array('rose','sunflower')
+        var name = new Array(4),
+        var boolean = new Array(4)
+        var contact = new Array(4)
+        var email = new Array(4)
+        id[0] = 15; id[2] = 34
+        console.log(id)
+        console.log('Array without using new keyword.')
+        var id = [102, 103, 104, 108]; 
+        var name = ['Poirei', 'Singha', 'Ryzen'];
+        var boolean = [true, false]; 
+        var contact = [9791301081, 7013070619]
+        var email = ['poirei4@gmail.com', 'poirei4@hotmail.com']
+        var arr = [id, name, boolean, contact, email]
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr[i].length; j++) {
+                console.log(arr[i][j])
+            }
+        }
+        console.log('=========================================================')
+        var a = 10
+        var str = '10'
+        if (a !== str) {
+            console.log('Equal')
+        }else {
+            console.log('Not equal') 
+        }
+        var num = 20;
+        console.log(typeof num);
+        console.log(typeof 'Poirei')
+        console.log(typeof true)
+        console.log(typeof null)
+        console.log(typeof undefined)
+    </script>
+</body>
+</html>

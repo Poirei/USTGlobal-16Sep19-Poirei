@@ -1,0 +1,8 @@
+body {
+    background: linear-gradient(45deg, rgb(230, 119, 119), rgb(148, 140, 140), rgb(98, 98, 175));
+}
+#grad {
+    height: 500px;
+    /* background: linear-gradient(45deg, rgb(230, 119, 119), rgb(148, 140, 140), rgb(98, 98, 175)); */
+    box-shadow: 0 0 15px;
+}

@@ -1,0 +1,12 @@
+console.log(`----------pop-----------`);
+console.log(num_arr.pop());
+console.log(genre_arr.pop());
+console.log(bool_arr.pop());
+console.log(mob_arr.pop());
+console.log(arr_arr.pop());
+console.log(fun_arr.pop());
+console.log(arr3.pop());
+console.log(arr4.pop());
+console.log(arr5.pop());
+console.log(arr6.pop());
+console.log(`++++++++++++++++++++++++++++++++++++++`);

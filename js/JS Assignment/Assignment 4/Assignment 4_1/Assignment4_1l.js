@@ -1,0 +1,12 @@
+console.log(`----------map-----------`);
+console.log(num_arr.map(value => value + 10));
+console.log(genre_arr.map(val => val + `__`));
+console.log(bool_arr.map(val => val + 1));
+console.log(mob_arr.map(val => val.price + 990));
+console.log(arr_arr.map(val => val + [6, 7, 8]));
+console.log(fun_arr.map(val => val()));
+console.log(arr3.map(val => val + [,23, 34, 89]));
+console.log(arr4.map(val => val + [,44, 55, 66]));
+console.log(arr5.map(val => val + [,44, 55, 66]));
+console.log(arr6.map(val => val + [,44, 55, 66]));
+console.log(`++++++++++++++++++++++++++++++++++++++`);

@@ -1,0 +1,12 @@
+console.log(`----------indexOf-----------`);
+console.log(num_arr.indexOf(39, 3));
+console.log(genre_arr.indexOf('EDM'));
+console.log(bool_arr.indexOf(false, 4));
+console.log(mob_arr.indexOf(mob_arr[0]));
+console.log(arr_arr.indexOf(arr_arr[2]));
+console.log(fun_arr.indexOf(fun4));
+console.log(arr3.indexOf(fun4));
+console.log(arr4.indexOf(genre_arr));
+console.log(arr5.indexOf(arr1));
+console.log(arr6.indexOf(bool_arr));
+console.log(`++++++++++++++++++++++++++++++++++++++`);

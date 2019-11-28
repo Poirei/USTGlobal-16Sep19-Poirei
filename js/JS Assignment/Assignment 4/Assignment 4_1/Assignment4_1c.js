@@ -1,0 +1,12 @@
+console.log(`----------includes-----------`);
+console.log(num_arr.includes(45, 2));
+console.log(genre_arr.includes(`Pop`, 2));
+console.log(bool_arr.includes(true, 4));
+console.log(mob_arr.includes(mob_arr[3], 2));
+console.log(arr_arr.includes(arr2, 3));
+console.log(fun_arr.includes(fun2, 0));
+console.log(arr3.includes(fun_arr, 0));
+console.log(arr4.includes(arr3));
+console.log(arr5.includes(arr4));
+console.log(arr6.includes(genre_arr));
+console.log(`++++++++++++++++++++++++++++++++++++++`);

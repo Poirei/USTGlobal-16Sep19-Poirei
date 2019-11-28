@@ -1,0 +1,19 @@
+/* .container {
+    background: linear-gradient(45deg, rgb(119, 119, 209), rgb(107, 224, 107), rgb(209, 209, 98));
+    color: antiquewhite;
+    border: 2px solid black;
+} */
+.card {
+    background: linear-gradient(45deg, rgb(119, 119, 209), rgb(107, 224, 107), rgb(209, 209, 98));
+    position: relative;
+    top: 19vh;
+}
+.container {
+    
+}
+.btn {
+    background-color: greenyellow;
+    position: relative;
+    left: 112px;
+    color: black;
+}

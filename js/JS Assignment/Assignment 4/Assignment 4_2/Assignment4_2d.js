@@ -1,0 +1,12 @@
+console.log(`----------indexOf()-----------`);
+console.log(a.indexOf('Poirei', 1));
+console.log(c.indexOf('    ', 1));
+console.log(d.indexOf('a', 1));
+console.log(e.indexOf('-', 1));
+console.log(f.indexOf('!', 1));
+console.log(g.indexOf('~', 10));
+console.log(h.indexOf(' ', 1));
+console.log(i.indexOf('vm', 1));
+console.log(j.indexOf('over', 1));
+console.log(k.indexOf('. ', 40));
+console.log(`++++++++++++++++++++++++++++++++++++++`);

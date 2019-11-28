@@ -1,0 +1,11 @@
+console.log(`----------trim()-----------`);
+console.log(a.trim());
+console.log(c.trim());
+console.log(d.trim());
+console.log(e.trim());
+console.log(f.trim());
+console.log(g.trim());
+console.log(h.trim());
+console.log(i.trim());
+console.log(j.trim());
+console.log(k.trim());

@@ -1,0 +1,12 @@
+console.log(`----------concat()-----------`);
+console.log(a.concat(' *'));
+console.log(c.concat(' *'));
+console.log(d.concat(' *'));
+console.log(e.concat(' *'));
+console.log(f.concat(' *'));
+console.log(g.concat(' *'));
+console.log(h.concat(' *'));
+console.log(i.concat(' *'));
+console.log(j.concat(' *'));
+console.log(k.concat(' *'));
+console.log(`++++++++++++++++++++++++++++++++++++++`);
