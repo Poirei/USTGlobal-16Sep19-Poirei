@@ -1,0 +1,39 @@
+<h1>{{name}}</h1>
+<img [src]="imgUrl" height="300px" [class.rounded-circle]="isActive" alt="">
+<h1 [style.color]="color" [class.bg-dark]="isActive" [class.bg-primary]="!isActive">{{address}}</h1>
+
+<table class="table table-bordered table-dark table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th [attr.colspan]="colSpanVal">Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Michael</td>
+            <td>20000000000</td>
+            <td>9791301081</td>
+            <td>7013070619</td>
+        </tr>
+        <tr>
+            <td>Michael</td>
+            <td>20000000000</td>
+            <td>9791301081</td>
+            <td>7013070619</td>
+        </tr>
+        <tr>
+            <td>Michael</td>
+            <td>20000000000</td>
+            <td>9791301081</td>
+            <td>7013070619</td>
+        </tr>
+        <tr>
+            <td>Michael</td>
+            <td>20000000000</td>
+            <td>9791301081</td>
+            <td>7013070619</td>
+        </tr>
+    </tbody>
+</table>

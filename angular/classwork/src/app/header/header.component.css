@@ -1,0 +1,10 @@
+.lgn-sup {
+    display: inline-flex;
+    position: relative;
+    margin-left: 77vw;
+}
+.cl-bar {
+    content: "";
+    height: 6px;
+    background: linear-gradient(45deg, rgb(68, 182, 68), rgb(75, 75, 194), rgb(241, 241, 74), rgb(221, 81, 81), rgb(219, 119, 219), rgb(156, 64, 223));
+}

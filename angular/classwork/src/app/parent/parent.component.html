@@ -1,0 +1,9 @@
+<div class="col-md-4 mt-2 float-left card card-body shadow-lg">
+  <h2 class="text-center text-info">Parent Component</h2>
+
+  <div class="card card-body shadow" *ngFor="let car of Cars">
+    <img src="{{car.imgUrl}}" alt="" (click)="sendCar(car)">
+    <h1 class="text-center text-primary">{{car.name}}</h1>
+  </div>
+</div>
+<app-child [car]="selectedCar"></app-child>

@@ -1,0 +1,89 @@
+<form action="" class="col-md-4 mt-5 mb-5 offset-4 card card-body bg-dark" #form="ngForm" (ngSubmit)="loginData(form)">
+  <h1 class="text-center text-white bg-dark rounded bg-info">Register Form</h1>
+  <div class="form-group">
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email..." #email="ngModel"
+      ngModel required>
+    <div *ngIf="email.touched && email.invalid">
+      <p *ngIf="email.errors.required" class="alert-danger form-control">This field is required!</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password..."
+      #password="ngModel" ngModel required>
+    <div *ngIf="password.touched && password.invalid">
+      <p *ngIf="password.errors.required" class="alert-danger form-control">This field is required!</p>
+    </div>
+  </div>
+  <div class="form-group offset-5">
+    <button type="submit" class="btn btn-outline-success" [disabled]="form.invalid">Register</button>
+  </div>
+</form>
+
+<table class="table table-bordered table-striped col-md-8 table-dark offset-2">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>Date</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of Users">
+      <td>{{user.id}}</td>
+      <td>{{user.email | uppercase}}</td>
+      <td>{{user.password | dollar}}</td>
+      <td>{{today | date}}</td>
+      <td>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" (click)="selectUser(user)">
+          Edit
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body bg-dark">
+                <form action="" class="bg-dark" #form="ngForm" *ngIf="selectedUser"
+                  (ngSubmit)="updateData(form)">
+                  <h1 class="text-center text-white bg-dark rounded bg-info">Update Form</h1>
+                  <input type="hidden" name="id" #id="ngModel" ngModel [(ngModel)]="selectedUser.id">
+                  <div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email..."
+                      #email="ngModel" ngModel required [(ngModel)]="selectedUser.email">
+                    <div *ngIf="email.touched && email.invalid">
+                      <p *ngIf="email.errors.required" class="alert-danger form-control">This field is required!</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" id="password" class="form-control"
+                      placeholder="Enter Password..." #password="ngModel" ngModel required [(ngModel)]="selectedUser.password">
+                    <div *ngIf="password.touched && password.invalid">
+                      <p *ngIf="password.errors.required" class="alert-danger form-control">This field is required!</p>
+                    </div>
+                  </div>
+                  <div class="form-group offset-5">
+                    <button type="submit" class="btn btn-outline-success" [disabled]="form.invalid">Update</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </td>
+      <td>
+        <button type="button" class="btn btn-outline-danger" (click)="deleteData(user)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
